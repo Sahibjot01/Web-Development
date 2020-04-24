@@ -1,4 +1,5 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -15,6 +16,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   color: #66BFBF;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -24,59 +26,91 @@ h3 {
 
 a {
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+
+span{
+  text-decoration: underline;
+}
+
+a:hover{
+  color: #EAF6F6;
 }
 
 hr {
-  width: 5%;
-  border-style: none;
-  border-top: dotted;
-  border-width: 7px;
+  width: 4%;
+  border: dotted;
+  border-bottom: none;
+  border-width: 6px;
   border-color: #EAF6F6;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
 }
 
 .second-heading {
   font-weight: normal;
 }
 
+.contact-msg {
+  width: 40%;
+  margin: 40px auto 60px;
+  visibility: hidden;
+}
+
 .top-container {
   background-color: #e4f9f5;
   padding-top: 100px;
   position: relative;
+  height: 85vh;
 }
 
-.middle-container {}
+.middle-container {
+  margin: 100px auto;
+}
 
 .bottom-container {
   background-color: #66BFBF;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  line-height: 2;
+  padding: 50px 0 20px;
   text-align: center;
 }
 
 .top-cloud {
   position: absolute;
   right: 600px;
-  top: 50px;
+  top: 40px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 600px;
-  bottom: 300px;
+  left: 450px;
+  bottom: 450px;
 }
 
-.profile-pic {
-  padding-top: 5px;
-  width: 250px;
-  height: auto;
+.mountain{
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -18.6875rem;
+
 }
+
+
 
 .skill-row {
   width: 50%;
   margin: 100px auto;
   text-align: left;
-  line-height: 2;
 }
 
 .patrick-images {
@@ -91,8 +125,10 @@ hr {
   margin-left: 30px;
 }
 
-.ending {
+.copyright {
   color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
 
 /*
@@ -105,24 +141,21 @@ to make text below the image but heading align left or right to image
   clear: right;
   padding-top: 10px;
 } */
-.btn {
-  background: #66BFBF;
-  background-image: -webkit-linear-gradient(top, #66BFBF, #4379D1);
-  background-image: -moz-linear-gradient(top, #66BFBF, #4379D1);
-  background-image: -ms-linear-gradient(top, #66BFBF, #4379D1);
-  background-image: -o-linear-gradient(top, #66BFBF, #4379D1);
-  background-image: linear-gradient(to bottom, #66BFBF, #4379D1);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
+.button {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
   color: #FFFFFF;
-  font-family: Open Sans;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: 100;
-  padding: 25px;
-  box-shadow: 1px 1px 12px 0px #000000;
-  -webkit-box-shadow: 1px 1px 20px 0px #000000;
-  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  padding: 20px;
   text-shadow: 1px 1px 20px #000000;
   text-decoration: none;
   display: inline-block;
@@ -130,16 +163,16 @@ to make text below the image but heading align left or right to image
   text-align: center;
 }
 
-.btn:hover {
-  border: solid #FFFFFF 1px;
-  background: #66BFBF;
-  background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
-  background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
-  background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
-  background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
-  background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
+.button:hover {
+  border: solid #2BC4AD 1px;
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
   text-decoration: none;
 }
