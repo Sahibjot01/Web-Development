@@ -1,87 +1,178 @@
-#title{
-  background-color: #FF4C68;
-  color: #fff;
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
-body{
-  font-family: "Montserrat";
+h1 {
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  color: #66BFBF;
 }
 
-.container-fluid{
-  padding: 3% 15%;
-}
-h1{
-  font-family: 'Montserrat';
-
-}
-
-
-
-.heading{
-  font-family: 'Montserrat';
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-  width: 90%;
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
 }
 
-
-
- /* navigation bar */
-.navbar{
-  padding: 0 0 4.5rem;
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
 
-.navbar-brand{
-    font-family: 'Ubuntu';
-    font-weight: bold;
-    font-size: 2.5rem;
-}
-
-.nav-item{
-  padding: 0 18px;
-}
-
-.nav-link{
-  font-size: 1.2rem;
-  font-weight: 300;
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
 
 }
 
- /* download button */
-.download-button{
-  margin: 5% 3% 5% 0;
+span{
+  text-decoration: underline;
 }
 
-
-.title-image{
-  width: 57%;
-  transform: rotate(22deg);
+a:hover{
+  color: #EAF6F6;
 }
 
-/* feature page */
+hr {
+  width: 4%;
+  border: dotted;
+  border-bottom: none;
+  border-width: 6px;
+  border-color: #EAF6F6;
+  margin: 100px auto;
+}
 
-#features{
-  padding: 7% 15%;
-}
-.feature-icons{
-  color : #ef8172;
-  margin-bottom: 1rem;
-}
-.feature-icons:hover{
-  color: #ff4c68;
-}
-h3{
-  font-family: 'Montserrat';
-  font-weight: 800;
-  font-size: 1.5rem;
-}
-p{
-  color: #8f8f8f;
+p {
   line-height: 2;
 }
 
-.feature-box{
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.second-heading {
+  font-weight: normal;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: 40px auto 60px;
+  visibility: hidden;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  padding-top: 100px;
+  position: relative;
+  height: 50.25rem;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
   text-align: center;
-  padding: 7%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 600px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 450px;
+  bottom: 450px;
+}
+
+.mountain{
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -18.6875rem;
+
+}
+
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.patrick-images {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.patrick-images2 {
+  width: 35%;
+  float: right;
+  margin-left: 30px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/*
+to make text below the image but heading align left or right to image
+.skill-desc-1{
+  clear: left;
+  padding-top: 10px;
+}
+.skill-desc-2{
+  clear: right;
+  padding-top: 10px;
+} */
+.button {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  text-shadow: 1px 1px 20px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  border: solid #2BC4AD 1px;
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
 }
